@@ -12,4 +12,4 @@ Executar arquivo com nodemon:
 
     nodemon nomeArquivo.js
 
-Diferentemente do node, ele fica "escutando" as mudanças.
+Diferentemente do nodejs, ele fica "escutando" as mudanças.
