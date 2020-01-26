@@ -42,3 +42,13 @@ Podemos diminuir a escrita do comando:
 **-S** equivalente ao **--save**, enquanto **-D** ao **--save-dev**
 
 Outra flag muito utilizada é **-g** que indica o módulo a ser instalado será **GLOBALMENTE** (disponível em toda máquina), enquanto sem essa flag é instalado apenas na **NODE_MODULES** 
+
+### Falando sobre número de versões das depedências (MAJOR.MINOR.PATCH)
+
+Temos ^ ~ 
+Outros sinais <= >= < >
+
+1. **"^7.x.x"** - Pode ser alterado o Minor e Patch / Ficar atento, quando o MINOR é trocado, algumas funcionalidades ficam obsoletas, podem continuar existindo / ou alguma funcionalidade mudou um pouco. ( Podendo quebrar a app )
+2.**"~7.2.x"** - Vai alterar apenas o PATCH, que normalmente é apenas correção de pequenos BUGS ou problemas solucionados.
+
+Podemos ainda deixar sem sinal, ou adicionar uma versão fixa **"8.0.1"** ( Jeito mais seguro, sempre baixa mesma função )
